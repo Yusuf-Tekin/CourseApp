@@ -1,0 +1,18 @@
+.my-course-component{
+    width: 100%;
+}
+.my-course-component .myCoursesMenu{
+    position: absolute;
+    width: 30%;
+}
+.my-course-component .course-content-component{
+    width: 70%;
+    margin-left: auto;
+}
+
+.course-content-image{
+    width:60%;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}

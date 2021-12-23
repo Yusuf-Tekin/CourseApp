@@ -1,0 +1,74 @@
+.create-course-component{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-course-component .main-component{
+    width: 60%;
+    height: 450px;
+    margin-top: 50px;
+
+}
+
+.create-course-component .main-component .pagination-area{
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+}
+.create-course-component .main-component .next-previous-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25px;
+}
+
+.step1-component .step1-main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.step1-component .step-header{
+    width: 50%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    text-justify: inter-word;
+}
+.step1-component .step1-main{
+    margin-top: 25px;
+}
+
+
+.step2-component {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.step2-component .section-area{
+    width: 70%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.step3-component{
+    width: 100%;
+    height: 95%;
+}
+.step3-component .section-area {
+    width: 256px;
+    position: absolute;
+    background-color: orange;
+}
+.step3-component .content-area{
+    width: 550px;
+    height: 100%;
+    margin-left: auto;
+}

@@ -1,0 +1,73 @@
+.navbar-component{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.navbar-component .logo-search{
+    width: 50%;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-component .user-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+.navbar-component .user-menu .user-single-menu{
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(124, 122, 122);
+}
+.navbar-component .user-menu .user-single-menu-text{
+    font-size: 15px;
+    color: rgb(41, 40, 40);
+    margin-right: 15px;
+    cursor: pointer;
+}
+.navbar-component .user-menu .user-single-menu-text:hover{
+    color: black;
+}
+.navbar-component .user-menu .user-profile{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbar-component .user-menu .user-profile img{
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+
+}
+
+
+.filterCourseList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #FEFBF3;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    box-shadow: 0px 0px  4px gray;
+    z-index: unset;
+}
+.filterCourseList .left{
+    display: flex;
+    flex-direction: column;
+}
